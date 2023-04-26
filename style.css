@@ -271,6 +271,12 @@
 	background: none !important;
 }
 
+/* remove borders */
+.markup-eYLPri code.inline /* inline codeblocks */,
+.itemCard-3Etziu /* active now card */,
+.container-1zzFcN /* vc panel bottom */ {
+	border: none !important;
+}
 .footerSeparator-3U8YsT, /* modal footer */
 .rootWithShadow-2hdL2J /* create a server */ {
 	-webkit-box-shadow: none !important;
@@ -297,7 +303,7 @@
 	display: none;
 }
 .wordmarkWindows-2dq6rw::after {
-	content: 'Patewtz';
+	content: '! Patewtz';
 	display: block;
 	position: relative;
 	width: 200px;
